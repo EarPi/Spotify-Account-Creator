@@ -18,7 +18,7 @@ EOF
 
 create_account(){
 
-	random=$(echo $RANDOM)
+    random=$(echo $RANDOM)
     password="Password${random}"
     prefix_domain="Spotify"
     domain="protonmail.com"
